@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+#wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #282c34;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: #aaaaaa;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+#todolist {
+    margin-top: 20px;
+}
+
+.todo-item {
+    background-color: #ffffff;
+    color: #282c34;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaaaaa;
+}
+
+/* body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(196, 144, 241, 0.786);
+}
+
+#wrapper h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 30px;
+    height: 2.5em;
+    width: 280px;
+}
+
+input:active {
+    border: none;
+}
+
+#wrapper {
+    height: 700px;
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.86);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+button {
+    margin-top: 30px;
+    height: 2.8em;
+    width: 80px;
+    background-color: rgb(255, 176, 72);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.129);
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+} */
